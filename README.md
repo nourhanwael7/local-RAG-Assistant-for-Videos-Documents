@@ -4,7 +4,7 @@ A fully local RAG (Retrieval-Augmented Generation) assistant that enables intell
 
 ## 🎥 Demo Video (53 seconds)
 
-```
+[▶️ Click here to watch the demo](https://github.com/nourhanwael7/local-RAG-Assistant-for-Videos-Documents/releases/download/v1.0/1v_0_20250805152822.mp4)
 
 **Quick Demo Overview:**
 - 📤 Document upload and processing (PDF, DOCX, EXCEL, TXT)
@@ -17,36 +17,36 @@ A fully local RAG (Retrieval-Augmented Generation) assistant that enables intell
 
 ## ✨ Features
 
-### 📍 Document Processing
+### 📁 Document Processing
 - Upload and process multiple file formats: **PDF, DOCX, EXCEL, TXT**
 - Intelligent text chunking to maintain context
 - Efficient document parsing and preprocessing
 
-### 📍 Video Transcription
+### 🎥 Video Transcription
 - YouTube video integration via URL
 - Local transcription using **Whisper AI**
 - Accurate speech-to-text conversion without external APIs
 
-### 📍 Semantic Search with Reranking
+### 🔍 Semantic Search with Reranking
 - **FAISS** vector database for fast similarity search
 - **all-MiniLM-L6-v2** embeddings for semantic understanding
 - **Reranking** for improved result accuracy and relevance
 - Two-stage retrieval: initial search + intelligent reranking
 - Instant retrieval of most relevant content chunks
 
-### 📍 RAG Pipeline with Reranking
+### 🧠 RAG Pipeline with Reranking
 - **LangChain** framework orchestrating the entire workflow
 - **Two-stage retrieval**: FAISS initial search + intelligent reranking
 - Context-aware response generation
 - Grounded answers based on retrieved and reranked information
 - Improved accuracy through relevance scoring
 
-### 📍 Local LLM
+### 🖥️ Local LLM
 - Powered by **Ollama** for complete privacy
 - Offline question answering capabilities
 - No data leaves your machine
 
-### 📍 Web Interface
+### 🌐 Web Interface
 - Clean, responsive UI built with **Bootstrap 5**
 - Real-time chat interface
 - File upload and management system
@@ -54,7 +54,7 @@ A fully local RAG (Retrieval-Augmented Generation) assistant that enables intell
 
 ---
 
-## 🏗️ Architecture
+## 🗃️ Architecture
 
 ```
 ┌─────────────────┐
@@ -67,10 +67,10 @@ A fully local RAG (Retrieval-Augmented Generation) assistant that enables intell
          │
     ┌────┴────┐
     │         │
-┌───▼──┐  ┌──▼────┐
+┌───▼───  ┌──▼─────┐
 │Whisper│  │Document│
 │ (YT)  │  │Parser │
-└───┬───┘  └──┬────┘
+└───┬───┘  └──┬─────┘
     │         │
     └────┬────┘
          │
@@ -78,22 +78,22 @@ A fully local RAG (Retrieval-Augmented Generation) assistant that enables intell
     │ Chunking│
     └────┬────┘
          │
-    ┌────▼────────┐
+    ┌────▼─────────┐
     │  Embeddings │ (all-MiniLM-L6-v2)
-    └────┬────────┘
+    └────┬─────────┘
          │
     ┌────▼────┐
     │  FAISS  │ (Initial Search)
     └────┬────┘
          │
-    ┌────▼─────────┐
+    ┌────▼──────────┐
     │  Reranker    │ (Relevance Scoring)
-    └────┬─────────┘
+    └────┬──────────┘
          │
-    ┌────▼─────────┐
+    ┌────▼──────────┐
     │  LangChain   │
     │  RAG Chain   │
-    └────┬─────────┘
+    └────┬──────────┘
          │
     ┌────▼────┐
     │ Ollama  │ (Local LLM)
@@ -173,7 +173,7 @@ http://localhost:5000
 - 🎓 Educational content exploration
 - 📹 Video content summarization
 - 📝 Meeting transcript analysis
-- 🔍 Knowledge base search
+- 🔎 Knowledge base search
 
 ---
 
@@ -238,6 +238,3 @@ For questions or feedback, please open an issue on GitHub.
 ## ⚠️ Note
 
 **This is a demonstration project. The actual source code is not publicly available due to confidentiality agreements (NDA).**
-
----
-
