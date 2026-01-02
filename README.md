@@ -4,7 +4,7 @@ A fully local RAG (Retrieval-Augmented Generation) assistant that enables intell
 
 ## 🎥 Demo Video (53 seconds)
 
-https://raw.githubusercontent.com/nourhanwael7/local-RAG-Assistant-for-Videos-Documents/main/1v_0_20250805152822.mp4
+[▶️ Click here to watch the demo](https://github.com/nourhanwael7/local-RAG-Assistant-for-Videos-Documents/releases/download/v1.0/1v_0_20250805152822.mp4)
 
 **Quick Demo Overview:**
 - 📤 Document upload and processing (PDF, DOCX, EXCEL, TXT)
